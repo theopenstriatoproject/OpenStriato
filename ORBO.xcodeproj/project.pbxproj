@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125E248B1A5DA4F4007B85D5 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 125E248A1A5DA4F4007B85D5 /* logo.jpg */; };
+		1267E95F1A529FEB00E1D9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267E95E1A529FEB00E1D9F7 /* main.m */; };
+		1267E9621A529FEB00E1D9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267E9611A529FEB00E1D9F7 /* AppDelegate.m */; };
+		1267E9651A529FEB00E1D9F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267E9641A529FEB00E1D9F7 /* ViewController.m */; };
+		1267E9681A529FEB00E1D9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1267E9661A529FEB00E1D9F7 /* Main.storyboard */; };
+		1267E96A1A529FEB00E1D9F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1267E9691A529FEB00E1D9F7 /* Images.xcassets */; };
+		1267E9791A529FEB00E1D9F7 /* ORBOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267E9781A529FEB00E1D9F7 /* ORBOTests.m */; };
+		1293B3B31A9A76F000EE2144 /* InformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1293B3B01A9A76F000EE2144 /* InformationTableViewController.m */; };
+		1293B3B41A9A76F000EE2144 /* SelectionDeviceTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1293B3B21A9A76F000EE2144 /* SelectionDeviceTableView.m */; };
+		1294DEFC1AA7103F00ADCC2F /* Orbo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1294DEFB1AA7103F00ADCC2F /* Orbo.m */; };
+		12C99CAF1AFA0F1700A7C5E8 /* lLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12C99CB11AFA0F1700A7C5E8 /* lLocalizable.strings */; };
+		12D4B84F1AEED97D00513863 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D4B84D1AEED97D00513863 /* LaunchScreen.xib */; };
+		12F488411A5D781600CFED11 /* button-33a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12F4883F1A5D781600CFED11 /* button-33a.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1267E9731A529FEB00E1D9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1267E9511A529FEB00E1D9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1267E9581A529FEB00E1D9F7;
+			remoteInfo = ORBO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125E248A1A5DA4F4007B85D5 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		1267E9591A529FEB00E1D9F7 /* ORBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORBO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267E95D1A529FEB00E1D9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267E95E1A529FEB00E1D9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1267E9601A529FEB00E1D9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1267E9611A529FEB00E1D9F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1267E9631A529FEB00E1D9F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1267E9641A529FEB00E1D9F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1267E9671A529FEB00E1D9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1267E9691A529FEB00E1D9F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1267E9721A529FEB00E1D9F7 /* ORBOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORBOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267E9771A529FEB00E1D9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267E9781A529FEB00E1D9F7 /* ORBOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORBOTests.m; sourceTree = "<group>"; };
+		1293B3AF1A9A76F000EE2144 /* InformationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationTableViewController.h; sourceTree = "<group>"; };
+		1293B3B01A9A76F000EE2144 /* InformationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationTableViewController.m; sourceTree = "<group>"; };
+		1293B3B11A9A76F000EE2144 /* SelectionDeviceTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionDeviceTableView.h; sourceTree = "<group>"; };
+		1293B3B21A9A76F000EE2144 /* SelectionDeviceTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionDeviceTableView.m; sourceTree = "<group>"; };
+		1294DEFA1AA7103F00ADCC2F /* Orbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orbo.h; sourceTree = "<group>"; };
+		1294DEFB1AA7103F00ADCC2F /* Orbo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orbo.m; sourceTree = "<group>"; };
+		12C99CAD1AFA0EAE00A7C5E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		12C99CAE1AFA0EAE00A7C5E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		12C99CB01AFA0F1700A7C5E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/lLocalizable.strings; sourceTree = "<group>"; };
+		12C99CB21AFA0F6800A7C5E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/lLocalizable.strings; sourceTree = "<group>"; };
+		12C99CB31AFA110400A7C5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/lLocalizable.strings; sourceTree = "<group>"; };
+		12D4B84E1AEED97D00513863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12F4883F1A5D781600CFED11 /* button-33a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-33a.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1267E9561A529FEB00E1D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267E96F1A529FEB00E1D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125E248C1A5DA55B007B85D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				125E248A1A5DA4F4007B85D5 /* logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1267E9501A529FEB00E1D9F7 = {
+			isa = PBXGroup;
+			children = (
+				1267E95B1A529FEB00E1D9F7 /* ORBO */,
+				1267E9751A529FEB00E1D9F7 /* ORBOTests */,
+				1267E95A1A529FEB00E1D9F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1267E95A1A529FEB00E1D9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1267E9591A529FEB00E1D9F7 /* ORBO.app */,
+				1267E9721A529FEB00E1D9F7 /* ORBOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1267E95B1A529FEB00E1D9F7 /* ORBO */ = {
+			isa = PBXGroup;
+			children = (
+				1267E9601A529FEB00E1D9F7 /* AppDelegate.h */,
+				1267E9611A529FEB00E1D9F7 /* AppDelegate.m */,
+				1294DEFD1AA7104800ADCC2F /* Model */,
+				1294DEF91AA7102600ADCC2F /* Controller */,
+				1267E9661A529FEB00E1D9F7 /* Main.storyboard */,
+				12D4B84D1AEED97D00513863 /* LaunchScreen.xib */,
+				1267E9691A529FEB00E1D9F7 /* Images.xcassets */,
+				125E248C1A5DA55B007B85D5 /* Images */,
+				12F488311A5D700E00CFED11 /* Sounds */,
+				1267E95C1A529FEB00E1D9F7 /* Supporting Files */,
+			);
+			path = ORBO;
+			sourceTree = "<group>";
+		};
+		1267E95C1A529FEB00E1D9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C99CB11AFA0F1700A7C5E8 /* lLocalizable.strings */,
+				1267E95D1A529FEB00E1D9F7 /* Info.plist */,
+				1267E95E1A529FEB00E1D9F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1267E9751A529FEB00E1D9F7 /* ORBOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1267E9781A529FEB00E1D9F7 /* ORBOTests.m */,
+				1267E9761A529FEB00E1D9F7 /* Supporting Files */,
+			);
+			path = ORBOTests;
+			sourceTree = "<group>";
+		};
+		1267E9761A529FEB00E1D9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1267E9771A529FEB00E1D9F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1294DEF91AA7102600ADCC2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1267E9631A529FEB00E1D9F7 /* ViewController.h */,
+				1267E9641A529FEB00E1D9F7 /* ViewController.m */,
+				1293B3B11A9A76F000EE2144 /* SelectionDeviceTableView.h */,
+				1293B3B21A9A76F000EE2144 /* SelectionDeviceTableView.m */,
+				1293B3B01A9A76F000EE2144 /* InformationTableViewController.m */,
+				1293B3AF1A9A76F000EE2144 /* InformationTableViewController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1294DEFD1AA7104800ADCC2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1294DEFA1AA7103F00ADCC2F /* Orbo.h */,
+				1294DEFB1AA7103F00ADCC2F /* Orbo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12F488311A5D700E00CFED11 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				12F4883F1A5D781600CFED11 /* button-33a.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1267E9581A529FEB00E1D9F7 /* ORBO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267E97C1A529FEB00E1D9F7 /* Build configuration list for PBXNativeTarget "ORBO" */;
+			buildPhases = (
+				1267E9551A529FEB00E1D9F7 /* Sources */,
+				1267E9561A529FEB00E1D9F7 /* Frameworks */,
+				1267E9571A529FEB00E1D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORBO;
+			productName = ORBO;
+			productReference = 1267E9591A529FEB00E1D9F7 /* ORBO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1267E9711A529FEB00E1D9F7 /* ORBOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267E97F1A529FEB00E1D9F7 /* Build configuration list for PBXNativeTarget "ORBOTests" */;
+			buildPhases = (
+				1267E96E1A529FEB00E1D9F7 /* Sources */,
+				1267E96F1A529FEB00E1D9F7 /* Frameworks */,
+				1267E9701A529FEB00E1D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1267E9741A529FEB00E1D9F7 /* PBXTargetDependency */,
+			);
+			name = ORBOTests;
+			productName = ORBOTests;
+			productReference = 1267E9721A529FEB00E1D9F7 /* ORBOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1267E9511A529FEB00E1D9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Striato;
+				TargetAttributes = {
+					1267E9581A529FEB00E1D9F7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1267E9711A529FEB00E1D9F7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1267E9581A529FEB00E1D9F7;
+					};
+				};
+			};
+			buildConfigurationList = 1267E9541A529FEB00E1D9F7 /* Build configuration list for PBXProject "ORBO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1267E9501A529FEB00E1D9F7;
+			productRefGroup = 1267E95A1A529FEB00E1D9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1267E9581A529FEB00E1D9F7 /* ORBO */,
+				1267E9711A529FEB00E1D9F7 /* ORBOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1267E9571A529FEB00E1D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D4B84F1AEED97D00513863 /* LaunchScreen.xib in Resources */,
+				125E248B1A5DA4F4007B85D5 /* logo.jpg in Resources */,
+				12C99CAF1AFA0F1700A7C5E8 /* lLocalizable.strings in Resources */,
+				12F488411A5D781600CFED11 /* button-33a.mp3 in Resources */,
+				1267E9681A529FEB00E1D9F7 /* Main.storyboard in Resources */,
+				1267E96A1A529FEB00E1D9F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267E9701A529FEB00E1D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1267E9551A529FEB00E1D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267E9651A529FEB00E1D9F7 /* ViewController.m in Sources */,
+				1267E9621A529FEB00E1D9F7 /* AppDelegate.m in Sources */,
+				1293B3B31A9A76F000EE2144 /* InformationTableViewController.m in Sources */,
+				1294DEFC1AA7103F00ADCC2F /* Orbo.m in Sources */,
+				1267E95F1A529FEB00E1D9F7 /* main.m in Sources */,
+				1293B3B41A9A76F000EE2144 /* SelectionDeviceTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267E96E1A529FEB00E1D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267E9791A529FEB00E1D9F7 /* ORBOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1267E9741A529FEB00E1D9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1267E9581A529FEB00E1D9F7 /* ORBO */;
+			targetProxy = 1267E9731A529FEB00E1D9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1267E9661A529FEB00E1D9F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1267E9671A529FEB00E1D9F7 /* Base */,
+				12C99CAD1AFA0EAE00A7C5E8 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C99CB11AFA0F1700A7C5E8 /* lLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C99CB01AFA0F1700A7C5E8 /* fr */,
+				12C99CB21AFA0F6800A7C5E8 /* en */,
+				12C99CB31AFA110400A7C5E8 /* Base */,
+			);
+			name = lLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		12D4B84D1AEED97D00513863 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D4B84E1AEED97D00513863 /* Base */,
+				12C99CAE1AFA0EAE00A7C5E8 /* fr */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1267E97A1A529FEB00E1D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1267E97B1A529FEB00E1D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1267E97D1A529FEB00E1D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORBO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1267E97E1A529FEB00E1D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ORBO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1267E9801A529FEB00E1D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORBOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORBO.app/ORBO";
+			};
+			name = Debug;
+		};
+		1267E9811A529FEB00E1D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ORBOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORBO.app/ORBO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1267E9541A529FEB00E1D9F7 /* Build configuration list for PBXProject "ORBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267E97A1A529FEB00E1D9F7 /* Debug */,
+				1267E97B1A529FEB00E1D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267E97C1A529FEB00E1D9F7 /* Build configuration list for PBXNativeTarget "ORBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267E97D1A529FEB00E1D9F7 /* Debug */,
+				1267E97E1A529FEB00E1D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267E97F1A529FEB00E1D9F7 /* Build configuration list for PBXNativeTarget "ORBOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267E9801A529FEB00E1D9F7 /* Debug */,
+				1267E9811A529FEB00E1D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1267E9511A529FEB00E1D9F7 /* Project object */;
+}

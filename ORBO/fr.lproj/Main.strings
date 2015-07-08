@@ -1,0 +1,21 @@
+
+/* Class = "IBUILabel"; text = "No base connected"; ObjectID = "2iw-Xk-tBL"; */
+"2iw-Xk-tBL.text" = "No base connected";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "HjJ-AE-07j"; */
+"HjJ-AE-07j.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Open RFID BLE Gateway"; ObjectID = "JA2-q3-VF2"; */
+"JA2-q3-VF2.text" = "Open RFID BLE Gateway";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "POk-lH-K9M"; */
+"POk-lH-K9M.text" = "Title";
+
+/* Class = "IBUILabel"; text = "No base connected"; ObjectID = "aTP-YK-yWu"; */
+"aTP-YK-yWu.text" = "No base connected";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "kEs-i6-thC"; */
+"kEs-i6-thC.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "vzw-Oo-x2t"; */
+"vzw-Oo-x2t.text" = "Subtitle";

@@ -1,0 +1,26 @@
+/* 
+  lLocalizable.strings
+  ORBO
+
+  Created by Utilisation on 06/05/2015.
+  Copyright (c) 2015 Striato. All rights reserved.
+*/
+
+
+
+
+// view controller
+
+"NoBaseConnected"     = "Pas de base connectée";
+"BTNotEnabled"        = "Bluetooth désactivé";
+"EnableBTRequest"     = "Activez le Bluetooth dans Réglages et re essayez...";
+
+"Searching"           = "Recherche en cours...";
+"Waiting"             = "Attente de carte...";
+"NoBaseFound"         = "Aucune base trouvée... Vérifier la base et re essayez";
+"Ooops"               = "Ooopsss...";
+
+"ComFailed"           = "Echec communication";
+"BLEDisconnected"     = "La base s'est déconnectée";
+
+"LoadMusic"           = "Chargement des musique";
